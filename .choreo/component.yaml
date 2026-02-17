@@ -14,8 +14,8 @@ configurations:
           type: secret
 
 runtimeArguments:
- -name: orgName
-  type: string
+    - name: orgName
+      type: string
 
- -name: name
-  type: string
+    - name: name
+      type: string
