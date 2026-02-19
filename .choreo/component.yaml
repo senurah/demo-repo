@@ -1,21 +1,21 @@
-schemaVersion: 1.2
+# schemaVersion: 1.2
 
-endpoints: []
+# endpoints: []
 
-dependencies: {}
+# dependencies: {}
 
-configurations:
-  env:
-    - name: gitPAT
-      valueFrom:
-        configForm:
-          displayName: GitHub Personal Access Token
-          required: true
-          type: secret
+# configurations:
+#   env:
+#     - name: gitPAT
+#       valueFrom:
+#         configForm:
+#           displayName: GitHub Personal Access Token
+#           required: true
+#           type: secret
 
-runtimeArguments:
-    - name: orgName
-      type: string
+# runtimeArguments:
+#     - name: orgName
+#       type: string
 
-    - name: name
-      type: string
+#     - name: name
+#       type: string
